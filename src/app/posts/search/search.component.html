@@ -1,0 +1,6 @@
+<mat-form-field class="example-full-width">
+  <mat-label>Search PostId</mat-label>
+  <input type="number" [(ngModel)]="searchText" matInput (keyup.enter)="search()">
+</mat-form-field>
+&nbsp;
+<button mat-raised-button (click)="search()">Search</button>
